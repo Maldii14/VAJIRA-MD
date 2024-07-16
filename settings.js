@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
 const BOTNAME = 'M-MD™';
-const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
+const FOOTERNAME = '> MALDIVES-MD';
 global.owner = process.env.OWNER_NUMBER  || '254758732775' ;  // ADD YOUR NUMBER WITHOUT +
     
     
@@ -20,7 +20,7 @@ COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ea1de82bebf3843128883.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech',
 MONGODB_URI :process.env.MONGODB_URI === undefined ? 'mongodb+srv://sachintharashan26:9hVStJbuE3uxwRtZ@cluster0.o0ec025.mongodb.net/' : process.env.MONGODB_URI,  
-FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
+FOOTER: process.env.FOOTER || '‌🇰🇪MALDIVES_ＭＤ 🇰🇪',    
 PREFIX: process.env.PREFIX || '*' ,
 LANG:  process.env.LANG || 'EN' ,    
 ANTI_BAD: process.env.ANTI_BAD || false  ,
@@ -32,7 +32,7 @@ AUTO_BIO:  process.env.AUTO_BIO  || false  ,
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 DISABLE_PM: process.env.DISABLE_PM || false ,
-ANTI_LINK: process.env.ANTI_LINK || false  ,
+ANTI_LINK: process.env.ANTI_LINK || true  ,
 ANTI_BOT: process.env.ANTI_BOT || true  ,
 ANTI_CALL: process.env.ANTI_CALL || true  ,
 ALIVE: process.env.ALIVE || `default`,     
@@ -41,4 +41,5 @@ AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,
 ANTI_DELETE : process.env.ANTI_DELETE || false ,
+CAPTION : process.env.CAPTION || 'https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R'
 };
