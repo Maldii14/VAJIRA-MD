@@ -16,7 +16,7 @@ SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=zBUliSiQ#jN4KlZeExBfTn6KL9d2RdG
 travaSend: process.env.TRAVA_SEND || '25' ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || '𝐌ak j' ,
-COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
+COMMAND_TYPE: process.env.COMMAND_TYPE || 'non-button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ea1de82bebf3843128883.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech',
 MONGODB_URI :process.env.MONGODB_URI === undefined ? 'mongodb+srv://sachintharashan26:9hVStJbuE3uxwRtZ@cluster0.o0ec025.mongodb.net/' : process.env.MONGODB_URI,  
